@@ -73,10 +73,17 @@ header nav ul li {
 
 /**-----CARROUSEL----*/
 
+.d-block {
+    width: 100%;
+    height: auto;
+}
 
-
+.carousel-item{
+    max-height: 900px;
+}
 
 /**-----Inicio-----*/
+
 .section-title {
     border-top: 2px solid lightgray;
     margin: 15px 0px;
