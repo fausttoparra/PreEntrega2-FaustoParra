@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://use.typekit.net/tpe5pbf.css");
+
+
+/**-----RESET-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Muli", sans-serif;
+}
+
+/**-----BODY-----*/
+
+body {
+    background-color: rgba(255, 255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/**-----HEADER-----*/
+
+
+
+
+.Logo {
+    width: 110px;
+}
+
+/*?-----NAV-----*/
+.nav-link {
+    color: #747c6c !important;
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px !important;
+}
+
+.container-fluid {
+    background-color: #F8F9FA;
+}
+
+
+/* nav div {
+    text-align: center;
+}
+header nav ul li {
+    display: flex;
+    padding: 0px 10px;
+
+}
+
+.navlist a {
+    text-decoration: none;
+    color:#747c6c;
+    text-transform: uppercase;
+    font-family:"Nunito", sans-serif;
+    font-size: 13px;
+
+}
+.navlist{
+    display: flex; {
+    */
+
+
+/**-----MAIN-----*/
+
+
+
+/**-----CARROUSEL----*/
+
+
+
+
+/**-----Inicio-----*/
+.section-title {
+    border-top: 2px solid lightgray;
+    margin: 15px 0px;
+}
+
+
+.container-sections {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+
+}
+
+.indicator p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.title-sections h2 {
+
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/*?-----PRODUCTOS-----*/
+
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 11px;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+
+}
+
+.products h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 22px;
+    margin: 4px 8px 8px;
+    text-align: center;
+
+}
+
+
+.item-price {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0px 8px;
+}
+
+
+
+
+main section h2 {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/**-----FOOTER-----*/
+
+
+footer {
+    background-color: #e5e5e5;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 2rem 8%;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+.footer-menu-container,
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+
+}
+
+.footer-menu-container {
+    list-style: none;
+    margin: 24px 0px;
+    padding: 0px 15px 20px;
+
+
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+}
+
+.social-icon:hover {
+    background-color: #ffffff;
+    filter: invert(1);
+}
+
+
+.icons-container img {
+    width: 25px;
+    height: 25px;
+    margin: 1rem;
+
+}
+
+.footer-menu-container a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover {
+    opacity: 1;
+}
+
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter h5 {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.newsletter h3 {
+    font-size: 20px;
+}
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: #d2d2d2cd;
+
+}
+
+.email-box i {
+    background: #d2d2d2cd;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.ebox {
+    outline: none;
+    border: none;
+}
+
+.ebox {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: #d2d2d2cd;
+    color: black;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-family: 'Mulli', sans-serif;
+    border: none;
+
+}
+
+.btn:hover {
+    border: 1px solid #00000077;
+    cursor: pointer;
+}
+
+/**?-----STORES-----*/
+
+main div tr {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+main div h3 {
+    font-size: 19px;
+    padding-top: 25px;
+    font-weight: 200;
+}
+
+/**?----CONTANTO-----*/
+
+
+
+
+/**?----COLLECTIONS-----*/
+
+
+
+
+/**?----STORES-----*/
+
+    
+.store-content  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-store h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.store-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+center {
+    margin: 20px 0  ;
+}
+
+/**?----MEDIA QUARYS-----*/
+
+
+@media screen and (max-width:987px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        
+    }
+}
+
+@media screen and (max-width:643px) {
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, auto);
+        
+    }
+}
+
+@media screen and (max-width:395px) {
+    .ebox {
+        width: 200px;
+        padding: 0 10px;
+    }
+}
