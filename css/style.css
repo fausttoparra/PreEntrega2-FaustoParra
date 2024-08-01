@@ -294,20 +294,7 @@ footer {
     cursor: pointer;
 }
 
-/**?-----STORES-----*/
 
-main div tr {
-    color: black;
-    font-weight: 600;
-    text-align: center;
-}
-
-
-main div h3 {
-    font-size: 19px;
-    padding-top: 25px;
-    font-weight: 200;
-}
 
 /**?----CONTANTO-----*/
 
@@ -370,9 +357,14 @@ main div h3 {
     justify-content: center;
 }
 
-center {
+.maps {
     margin: 20px 0  ;
-}
+    }
+.maps iframe { 
+    text-align: center; 
+    height :450px;
+    width: 100%;
+    }
 
 /**?----MEDIA QUARYS-----*/
 
@@ -423,4 +415,11 @@ center {
     .grid-items a img{
     height: 200px;
     }
+}
+
+@media screen and (max-width:650px){
+    center iframe {
+        width: 200px; 
+        height: 20px;
+    }  
 }
